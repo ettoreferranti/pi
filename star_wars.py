@@ -25,7 +25,7 @@ aH = 880
 
 #configuration
 duty = 10
-triggerPin = 27
+triggerPIN = 27
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(triggerPIN,GPIO.OUT)
 
